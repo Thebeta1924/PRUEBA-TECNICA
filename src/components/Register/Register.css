@@ -1,71 +1,57 @@
-/* Estilos generales */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Arial', sans-serif;
-    background-image: url('https://img.freepik.com/vector-gratis/fondo-conexion-degradado_23-2150516350.jpg'); /* Cambia la URL por la de tu imagen */
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.register-container {
+    background-color: #2a2a72;
+    color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
   
   h2 {
     text-align: center;
-    color: #fff;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  .form-section {
     margin-bottom: 20px;
   }
   
-  /* Contenedor del formulario */
-  .register-container {
-    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 450px;
-    margin: 20px;
+  .form-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
   }
   
-  /* Estilo para los campos del formulario */
   .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
   
   label {
-    font-size: 14px;
-    font-weight: bold;
-    color: #555;
-    margin-bottom: 5px;
     display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
   }
   
-  input,
-  select {
+  input, select {
     width: 100%;
-    padding: 12px;
-    font-size: 16px;
-    border: 1px solid #ccc;
+    padding: 10px;
+    border: none;
     border-radius: 5px;
-    transition: border-color 0.3s ease;
+    font-size: 14px;
   }
   
-  input:focus,
-  select:focus {
-    border-color: #007bff;
-    outline: none;
-  }
-  
-  button {
+  .submit-button {
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     background-color: #007bff;
     color: white;
     border: none;
@@ -75,7 +61,7 @@
     transition: background-color 0.3s ease;
   }
   
-  button:hover {
+  .submit-button:hover {
     background-color: #0056b3;
   }
   

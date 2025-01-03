@@ -68,7 +68,7 @@ select:focus {
 button {
   width: 100%;
   padding: 10px;
-  background-color: #1abc9c; /* Botón verde claro */
+  background-color: #2676b4; /* Botón verde claro */
   color: white;
   border: none;
   border-radius: 5px;
@@ -78,7 +78,7 @@ button {
 }
 
 button:hover {
-  background-color: #16a085; /* Color más oscuro del botón al pasar el ratón */
+  background-color: #0056b3; /* Color más oscuro del botón al pasar el ratón */
 }
 
 /* Enlace de registro */
